@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(rgb(255, 255, 187), rgb(182, 241, 182), rgb(195, 251, 255), lavender, rgb(253, 218, 224));
+}
+
+ 
+#show_sketch{
+    float: right;
+    border-radius: 10px;
+    width:105px;
+    height: 35px;
+    font-size: 15;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 252, 253);
+    border-color: rgb(240, 248, 255);
+    margin-right: 10;
+
+
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 38px grey;}
+    to {box-shadow: 1px 1px 38px white;}
+}
+p{
+    padding-top: 10px;
+   
+}
+#label{
+    font-size: 25;
+}
+#confidence{
+    font-size: 25;
+}
+#clear{
+    border-radius: 10px;
+    width:155px;
+    height: 65px;
+    font-size: 20;
+    font-family: amatic sc;
+    background-color: rgb(219, 252, 253);
+    border-color: rgb(240, 248, 255);
+}
